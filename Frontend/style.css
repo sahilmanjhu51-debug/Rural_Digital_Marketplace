@@ -136,28 +136,3 @@ nav span {
     transform: scale(1.05);
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .category {
-        padding: 20px;
-    }
-
-    .products {
-        gap: 15px;
-    }
-
-    .product {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .product {
-        width: 100%;
-    }
-}
